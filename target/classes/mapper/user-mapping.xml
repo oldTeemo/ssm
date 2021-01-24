@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 设置为IUserDao接口方法提供sql语句配置 -->
+<mapper namespace="com.taojingwei.dao.IUserDao">
+
+    <insert id="addUser" parameterType="com.taojingwei.pojo.User">
+        insert into myuser(user_id,name)values('123456',#{name})
+    </insert>
+
+    <select id="getUser" resultType="java.lang.String" parameterType="java.lang.String">
+        select name from myuser where user_id = '1234576杀杀杀顶顶大苏打顶'
+    </select>
+
+</mapper>
