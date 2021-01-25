@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72da882a-c341-4e72-b89c-cb7821411a9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taojingwei/controller/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taojingwei/controller/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taojingwei/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taojingwei/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taojingwei/service/IAddService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taojingwei/service/IAddService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taojingwei/service/serviceimpl/AddUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taojingwei/service/serviceimpl/AddUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/user-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/user-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/controller/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/controller/AddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/service/IAddService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/service/IAddService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/service/serviceimpl/AddUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/service/serviceimpl/AddUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/user-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/user-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/controller/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/controller/AddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/service/IAddService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/service/IAddService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/service/serviceimpl/AddUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/service/serviceimpl/AddUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/user-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/user-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +55,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Maven.ssm [package]">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ssm [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -118,11 +126,25 @@
       <updated>1611386097818</updated>
       <workItem from="1611386100178" duration="101000" />
       <workItem from="1611386213148" duration="2502000" />
-      <workItem from="1611470030982" duration="4430000" />
+      <workItem from="1611470030982" duration="7639000" />
+      <workItem from="1611573711155" duration="17151000" />
+      <workItem from="1611592680961" duration="67000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -9,17 +9,23 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 
+/**
+ * @author liuwei
+ */
 @Service
 public class AddUserServiceImpl implements IAddService {
 
     @Resource
     private IUserDao userDao;
 
-    @Transactional()
+    @Override
     public void addUser(User user) {
-        System.out.println("ss");
-        user.setName("11");
         userDao.addUser(user);
+    }
+
+    @Override
+    public void deleteUser() {
+        userDao.deleteUser();
     }
 
 }
