@@ -39,6 +39,7 @@ public class AddController {
         logger.info("33333333333");
         System.out.println("4444");
         addService.deleteUser();
+        Class.forName();
         return "1";
     }
 

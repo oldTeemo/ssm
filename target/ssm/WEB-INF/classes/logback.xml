@@ -22,7 +22,7 @@
         <!-- 日志滚动策略 -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy"> <!-- TimeBased默认是一天更新一次 -->
             <!-- 历史日志文件的存放路径和名称 -->
-            <fileNamePattern>${logHome}/error/error.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+            <fileNamePattern>${logHome}/error/error.%d{yyyy-MM-dd-HH:mm}.log.gz</fileNamePattern>
             <!-- 日志文件最大的保存历史 数量-->
             <maxHistory>30</maxHistory>
         </rollingPolicy>
@@ -36,14 +36,11 @@
         <!-- 文件路径 -->
         <file>${logHome}/info.log</file><!-- 当前的日志文件存放路径 -->
         <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
-        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <!--             按天轮转 -->
-            <fileNamePattern>${logHome}/info/-%d{yyyy-MM-dd-HH-mm}.zip</fileNamePattern>
-            <maxHistory>60</maxHistory>
-        </rollingPolicy>
-        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${logHome}/info/%d{yyyy-MM-dd-HH-mm}/%d{yyyy-MM-dd-HH-mm}.%i.log.zip</fileNamePattern>
+            <maxHistory>4</maxHistory>
             <maxFileSize>2KB</maxFileSize>
-        </triggeringPolicy>
+        </rollingPolicy>
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
