@@ -6,16 +6,12 @@ import com.taojingwei.pojo.User;
  * @author liuwei
  */
 public interface IAddService {
-    /**
-     * fetch data by rule id
-     * @param user rule id
-     * @return Result<XxxxDO>
-     */
+
     void addUser(User user);
 
-    /**
-     * fetch data by rule id
-     * @return Result<XxxxDO>
-     */
-    void deleteUser();
+    void deleteUser(String id);
+
+    void updateUser(User user);
+
+    User getUser(String id);
 }

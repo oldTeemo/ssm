@@ -12,19 +12,22 @@
     </appender>
     <!-- error-->
     <appender name="errorFile"  class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--只输出error级别的日志-->
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>ERROR</level>
             <onMatch>ACCEPT</onMatch>
             <onMismatch>DENY</onMismatch>
         </filter>
-        <!-- 文件路径 -->
-        <file>${logHome}/error.log</file><!-- 当前的日志文件存放路径 -->
-        <!-- 日志滚动策略 -->
-        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy"> <!-- TimeBased默认是一天更新一次 -->
-            <!-- 历史日志文件的存放路径和名称 -->
-            <fileNamePattern>${logHome}/error/error.%d{yyyy-MM-dd-HH:mm}.log.gz</fileNamePattern>
-            <!-- 日志文件最大的保存历史 数量-->
-            <maxHistory>30</maxHistory>
+        <!-- 当前日志路径 -->
+        <file>${logHome}/error.log</file>
+        <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!--历史日志的路径-->
+            <fileNamePattern>${logHome}/error/%d{yyyy-MM-dd}/%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+            <!--保留60天的日志-->
+            <maxHistory>60</maxHistory>
+            <!--每天的日志按1GB拆分成多个文件-->
+            <maxFileSize>1GB</maxFileSize>
         </rollingPolicy>
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
@@ -33,13 +36,16 @@
     </appender>
     <!-- info -->
     <appender name="info"  class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <!-- 文件路径 -->
-        <file>${logHome}/info.log</file><!-- 当前的日志文件存放路径 -->
+        <!-- 当前日志路径 -->
+        <file>${logHome}/info.log</file>
         <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
-            <fileNamePattern>${logHome}/info/%d{yyyy-MM-dd-HH-mm}/%d{yyyy-MM-dd-HH-mm}.%i.log.zip</fileNamePattern>
-            <maxHistory>4</maxHistory>
-            <maxFileSize>2KB</maxFileSize>
+            <!--历史日志的路径-->
+            <fileNamePattern>${logHome}/info/%d{yyyy-MM-dd}/%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+            <!--保留60天的日志-->
+            <maxHistory>60</maxHistory>
+            <!--每天的日志按1GB拆分成多个文件-->
+            <maxFileSize>1GB</maxFileSize>
         </rollingPolicy>
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
@@ -47,8 +53,9 @@
         </encoder>
     </appender>
 
-    <!--com包下的日志只打印ERROR级别的；com包下的所有日志不会由root中配置的appender打印（即使是info、warn等没有在这个logger中打印的信息）-->
+    <!--com包下的日志只输出info及以上级别的；additivity="false":com包下的所有日志不会由root中配置的appender输出（即使是trace等没有在这个logger中打印的信息）-->
     <logger name="com" level="info" additivity="false">
+        <!--日志具体输出方式-->
         <appender-ref ref="stdout" />
         <appender-ref ref="info" />
         <appender-ref ref="errorFile" />
