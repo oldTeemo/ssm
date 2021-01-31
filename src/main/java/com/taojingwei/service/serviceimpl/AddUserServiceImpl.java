@@ -22,6 +22,7 @@ public class AddUserServiceImpl implements IAddService {
     private IUserDao userDao;
 
     private static final Logger logger = LoggerFactory.getLogger(AddUserServiceImpl.class);
+
     @Override
     public void addUser(User user) {
         userDao.addUser(user);

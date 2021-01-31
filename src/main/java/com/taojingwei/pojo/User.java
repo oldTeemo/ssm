@@ -1,9 +1,11 @@
 package com.taojingwei.pojo;
 
+import java.io.Serializable;
+
 /**
  * @author liuwei
  */
-public class User {
+public class User implements Serializable {
 
     private String name;
 

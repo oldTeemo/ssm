@@ -5,20 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72da882a-c341-4e72-b89c-cb7821411a9c" name="Default Changelist" comment="taojw 202101262204">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/redis.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/taojingwei/controller/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taojingwei/controller/AddController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taojingwei/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taojingwei/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taojingwei/service/serviceimpl/AddUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taojingwei/service/serviceimpl/AddUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beans/spring-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans/spring-datasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/spring-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beans/spring-datasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/controller/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/controller/AddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/service/IAddService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/service/IAddService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/service/serviceimpl/AddUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/service/serviceimpl/AddUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/user-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/user-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/beans/spring-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/beans/spring-datasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/controller/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/controller/AddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/service/IAddService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/service/IAddService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/service/serviceimpl/AddUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/service/serviceimpl/AddUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/user-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/user-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/springmvc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -38,18 +76,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/beans" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\gitcodes\ssm\src\main\resources\beans" />
+    </key>
+  </component>
   <component name="RunManager" selected="Maven.ssm [package]">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +171,20 @@
       <workItem from="1611592680961" duration="67000" />
       <workItem from="1611592762320" duration="166000" />
       <workItem from="1611666896449" duration="4350000" />
+      <workItem from="1611747167209" duration="9656000" />
+      <workItem from="1611758925013" duration="655000" />
+      <workItem from="1611834431991" duration="5417000" />
+      <workItem from="1611847474288" duration="477000" />
+      <workItem from="1611919204201" duration="3025000" />
+      <workItem from="1611924488382" duration="131000" />
+      <workItem from="1611927191086" duration="1066000" />
+      <workItem from="1611929901544" duration="589000" />
+      <workItem from="1611984903582" duration="605000" />
+      <workItem from="1611988915186" duration="594000" />
+      <workItem from="1611989743401" duration="1666000" />
+      <workItem from="1612060118446" duration="1791000" />
+      <workItem from="1612073801461" duration="351000" />
+      <workItem from="1612074509585" duration="5380000" />
     </task>
     <task id="LOCAL-00001" summary="taojw 202101262204">
       <created>1611669874912</created>
@@ -134,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611669874912</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="taojw 202101262204">
+      <created>1611757905830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611757905830</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

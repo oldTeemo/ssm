@@ -5,15 +5,19 @@
 <mapper namespace="com.taojingwei.dao.IUserDao">
 
     <insert id="addUser" parameterType="com.taojingwei.pojo.User">
-        insert into myuser(user_id,name)values('123456',#{name})
+        insert into myuser(user_id,name)values(#{id},#{name})
     </insert>
 
-    <delete id="deleteUser">
-        delete from myuser
+    <delete id="deleteUser" parameterType="java.lang.String">
+        delete from myuser where user_id = #{id}
     </delete>
 
-    <select id="getUser" resultType="java.lang.String" parameterType="java.lang.String">
-        select name from myuser where user_id = '1234576杀杀杀顶顶大苏打顶'
+    <select id="getUser" resultType="com.taojingwei.pojo.User" parameterType="java.lang.String">
+        select name from myuser where user_id = #{id}
     </select>
+
+    <update id="updateUser" parameterType="com.taojingwei.pojo.User">
+        update myuser set name = #{name} where user_id = #{id}
+    </update>
 
 </mapper>
