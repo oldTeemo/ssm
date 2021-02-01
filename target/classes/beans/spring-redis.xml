@@ -37,5 +37,4 @@
         <property name="defaultExpiration" value="${redis.expiration}"/>
     </bean>
 
-
 </beans>

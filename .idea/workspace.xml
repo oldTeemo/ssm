@@ -5,35 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72da882a-c341-4e72-b89c-cb7821411a9c" name="Default Changelist" comment="taojw 202101262204">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beans/spring-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/redis.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/taojingwei/controller/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taojingwei/controller/AddController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taojingwei/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taojingwei/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taojingwei/service/serviceimpl/AddUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taojingwei/service/serviceimpl/AddUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beans/spring-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans/spring-datasource.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/beans/spring-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beans/spring-datasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beans/spring-redis.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/controller/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/controller/AddController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/dao/IUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/service/IAddService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/service/IAddService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/service/serviceimpl/AddUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/service/serviceimpl/AddUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/user-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/user-mapping.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/beans/spring-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/beans/spring-datasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/beans/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/beans/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/aop/AopTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/controller/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/controller/AddController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/dao/IUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/service/IAddService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/service/IAddService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/service/serviceimpl/AddUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/service/serviceimpl/AddUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/user-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/user-mapping.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-pool-1.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jackson-core-2.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jackson-databind-2.8.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/logback-ext-spring-0.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/lombok-1.18.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/mybatis-3.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/slf4j-log4j12-1.7.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-aop-4.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-core-4.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-orm-4.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-oxm-4.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-test-4.0.2.RELEASE.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,15 +85,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.ssm [package]">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,7 +181,8 @@
       <workItem from="1611989743401" duration="1666000" />
       <workItem from="1612060118446" duration="1791000" />
       <workItem from="1612073801461" duration="351000" />
-      <workItem from="1612074509585" duration="5380000" />
+      <workItem from="1612074509585" duration="8864000" />
+      <workItem from="1612179113351" duration="4497000" />
     </task>
     <task id="LOCAL-00001" summary="taojw 202101262204">
       <created>1611669874912</created>
