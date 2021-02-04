@@ -1,4 +1,5 @@
 com\taojingwei\service\serviceimpl\AddUserServiceImpl.class
+com\taojingwei\aop\AopTest.class
 com\taojingwei\controller\AddController.class
 com\taojingwei\dao\IUserDao.class
 com\taojingwei\service\IAddService.class

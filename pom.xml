@@ -84,6 +84,13 @@
       <artifactId>mybatis-spring</artifactId>
       <version>1.2.2</version>
     </dependency>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-asl</artifactId>
+      <version>1.9.8</version>
+      <type>jar</type>
+      <scope>compile</scope>
+    </dependency>
     <!-- mybatis框架包 -->
     <!-- 连接池 -->
     <dependency>
