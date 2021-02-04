@@ -1,7 +1,6 @@
 package com.taojingwei.aop;
 
 import com.taojingwei.controller.AddController;
-import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
@@ -9,6 +8,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
+import java.io.UnsupportedEncodingException;
+
+/**
+ * @author liuwei
+ */
 @Component
 @Aspect
 public class AopTest {
@@ -19,16 +23,16 @@ public class AopTest {
     public  void controllerAspect() {}
 
     @Pointcut("execution (* com.taojingwei.service..*.*(..))")
-    public  void controllerAspectss() {}
+    public void serviceAspect() {}
 
     @Before("controllerAspect()")
-    public void before(JoinPoint p){
-        logger.info("ssssshhhhhhhhhhhhbefore");
+    public void beforeC() throws UnsupportedEncodingException {
+        logger.info("是谁的");
     }
 
-    @Before("controllerAspectss()")
-    public void befores(JoinPoint p){
-        logger.info("wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww");
+    @Before("serviceAspect()")
+    public void beforeS(){
+        logger.info("service都打这个");
     }
 
 }
