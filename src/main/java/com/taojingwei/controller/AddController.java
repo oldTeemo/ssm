@@ -24,7 +24,7 @@ public class AddController{
     @Resource
     private IAddService addService;
 
-    @Cacheable("2i3")
+    @Cacheable("23")
     @RequestMapping(value = "/test", method = RequestMethod.POST)
     public String test(@RequestBody User user){
         logger.info(user.toString());

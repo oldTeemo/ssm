@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72da882a-c341-4e72-b89c-cb7821411a9c" name="Default Changelist" comment="taojw 202101262204">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taojingwei/aop/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taojingwei/aop/AopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/taojingwei/controller/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taojingwei/controller/AddController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/taojingwei/aop/AopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/taojingwei/aop/AopTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/aop/AopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/taojingwei/aop/AopTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,19 +63,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.ssm [package]">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ssm [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -170,7 +154,9 @@
       <workItem from="1612263718846" duration="2088000" />
       <workItem from="1612356802996" duration="599000" />
       <workItem from="1612440372825" duration="8109000" />
-      <workItem from="1612449885782" duration="1699000" />
+      <workItem from="1612449885782" duration="2052000" />
+      <workItem from="1612527638136" duration="1580000" />
+      <workItem from="1612783651723" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="taojw 202101262204">
       <created>1611669874912</created>
