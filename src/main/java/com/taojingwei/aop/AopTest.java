@@ -20,18 +20,20 @@ public class AopTest {
     private static final Logger logger = LoggerFactory.getLogger(AddController.class);
 
     @Pointcut("execution (* com.taojingwei.controller..*.*(..))")
-    public  void controllerAspect() {}
+    public void controllerAspect() {
+    }
 
     @Pointcut("execution (* com.taojingwei.service..*.*(..))")
-    public void serviceAspect() {}
+    public void serviceAspect() {
+    }
 
     @Before("controllerAspect()")
     public void beforeC() throws UnsupportedEncodingException {
-        logger.info("是谁的");
+        logger.info("是谁的s");
     }
 
     @Before("serviceAspect()")
-    public void beforeS(){
+    public void beforeS() {
         logger.info("service都打这个");
     }
 
